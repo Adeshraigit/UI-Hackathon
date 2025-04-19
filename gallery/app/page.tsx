@@ -12,11 +12,8 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">About</h2>
         <p className="text-gray-300 leading-relaxed">
           Full-Stack Developer passionate about building scalable web applications and AI-powered
-          solutions. Skilled in Next.js, React, Angular, Node.js, and TypeScript, with expertise in
-          MongoDB, Tailwind CSS, and REST APIs. Experienced in optimizing performance, integrating
-          backend services, and enhancing user interfaces. Strong background in team collaboration,
-          hackathon leadership, and technical event management. Enthusiastic about problem-solving,
-          innovation, and continuous learning in a dynamic environment.
+          solutions. Skilled in Next.js, TypeScript,Experienced in optimizing performance, integrating
+          backend services, and enhancing user interfaces.
         </p>
       </div>
     </div>
