@@ -54,50 +54,35 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-12">Featured Projects</h2>
             <BentoGrid>
               <ProjectCard
-                title="E-Commerce Platform"
-                description="A modern e-commerce platform with a focus on user experience and performance."
+                title="VidyaGiri"
+                description="An AI powered educational platform."   
                 image="/projects/vidya.png?height=600&width=800"
                 category="Web Development"
-                link="#"
+                link="https://vidyagiri.vercel.app/"
                 className="md:col-span-2"
               />
               <ProjectCard
-                title="Mobile Banking App"
-                description="Secure and intuitive mobile banking application."
+                title="VConnect"
+                description="A RAG for college students." 
                 image="/projects/chat.png?height=400&width=600"
-                category="UI/UX Design"
-                link="#"
+                category="Web Development"
+                link="https://github.com/Adeshraigit/Rag-model"
               />
               <ProjectCard
-                title="Portfolio Website"
-                description="Personal portfolio website for a photographer."
+                title="Music App"
+                description="A music class app."
                 image="/projects/music.png?height=400&width=600"
                 category="Web Design"
-                link="#"
+                link="https://next-js-music-phi.vercel.app/"
               />
               <ProjectCard
-                title="AI Dashboard"
+                title="Astella"
                 description="Analytics dashboard for monitoring AI performance metrics."
                 image="/projects/astella.png?height=400&width=600"
                 category="Data Visualization"
-                link="#"
+                link="https://teamastella.vercel.app/"
                 className="md:col-span-2"
               />
-              {/* <ProjectCard
-                title="Travel Blog"
-                description="Custom blog platform for travel enthusiasts."
-                image="/placeholder.svg?height=400&width=600"
-                category="Web Development"
-                link="#"
-                className="md:col-span-2"
-              />
-              <ProjectCard
-                title="Fitness Tracker"
-                description="Mobile app for tracking workouts and nutrition."
-                image="/placeholder.svg?height=400&width=600"
-                category="Mobile Development"
-                link="#"
-              /> */}
             </BentoGrid>
           </section>
 
@@ -150,7 +135,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative h-[400px] rounded-xl overflow-hidden border border-white/20">
-                <Image src="/adesh.jpeg?height=800&width=600" alt="Portrait" fill className="object-cover" />
+                <Image src="/adesh.png?height=800&width=600" alt="Portrait" fill className="object-cover" />
               </div>
             </div>
           </section>
