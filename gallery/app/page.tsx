@@ -33,7 +33,7 @@ export default function Home() {
           {/* Hero Section */}
           <section className="container mx-auto py-20 md:py-32">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">Creative Developer & Designer</h1>
+              <h1 className="text-4xl md:text-6xl font-bold mb-6">Creative Developer & Prompt Engineer</h1>
               <p className="text-xl text-white/80 mb-8">
                 I build exceptional digital experiences that combine aesthetics with functionality. Specializing in
                 interactive websites and creative applications.
@@ -56,7 +56,7 @@ export default function Home() {
               <ProjectCard
                 title="E-Commerce Platform"
                 description="A modern e-commerce platform with a focus on user experience and performance."
-                image="/placeholder.svg?height=600&width=800"
+                image="/projects/vidya.png?height=600&width=800"
                 category="Web Development"
                 link="#"
                 className="md:col-span-2"
@@ -64,26 +64,26 @@ export default function Home() {
               <ProjectCard
                 title="Mobile Banking App"
                 description="Secure and intuitive mobile banking application."
-                image="/placeholder.svg?height=400&width=600"
+                image="/projects/chat.png?height=400&width=600"
                 category="UI/UX Design"
                 link="#"
               />
               <ProjectCard
                 title="Portfolio Website"
                 description="Personal portfolio website for a photographer."
-                image="/placeholder.svg?height=400&width=600"
+                image="/projects/music.png?height=400&width=600"
                 category="Web Design"
                 link="#"
               />
               <ProjectCard
                 title="AI Dashboard"
                 description="Analytics dashboard for monitoring AI performance metrics."
-                image="/placeholder.svg?height=400&width=600"
+                image="/projects/astella.png?height=400&width=600"
                 category="Data Visualization"
                 link="#"
                 className="md:col-span-2"
               />
-              <ProjectCard
+              {/* <ProjectCard
                 title="Travel Blog"
                 description="Custom blog platform for travel enthusiasts."
                 image="/placeholder.svg?height=400&width=600"
@@ -97,7 +97,7 @@ export default function Home() {
                 image="/placeholder.svg?height=400&width=600"
                 category="Mobile Development"
                 link="#"
-              />
+              /> */}
             </BentoGrid>
           </section>
 
@@ -107,14 +107,10 @@ export default function Home() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">About Me</h2>
                 <p className="text-lg mb-4">
-                  I'm a passionate developer and designer with over 5 years of experience creating digital products that
-                  solve real problems. My approach combines technical expertise with creative thinking to deliver
-                  exceptional results.
+                Full‑Stack Developer with 1+ years of experience crafting digital products that solve real problems. Passionate about building scalable web applications and AI‑powered experiences
                 </p>
                 <p className="text-lg mb-6">
-                  I specialize in front-end development, UI/UX design, and interactive experiences. When I'm not coding,
-                  you can find me exploring new design trends, contributing to open-source projects, or hiking in the
-                  mountains.
+               
                 </p>
                 <div className="flex gap-4">
                   <Button
@@ -123,7 +119,8 @@ export default function Home() {
                     asChild
                     className="border-white/20 text-white hover:bg-white/10"
                   >
-                    <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://github.com/Adeshraigit
+                    " target="_blank" rel="noopener noreferrer">
                       <Github className="h-5 w-5" />
                       <span className="sr-only">GitHub</span>
                     </Link>
@@ -134,7 +131,7 @@ export default function Home() {
                     asChild
                     className="border-white/20 text-white hover:bg-white/10"
                   >
-                    <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://linkedin.com/in/adeshrai" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5" />
                       <span className="sr-only">LinkedIn</span>
                     </Link>
@@ -145,7 +142,7 @@ export default function Home() {
                     asChild
                     className="border-white/20 text-white hover:bg-white/10"
                   >
-                    <Link href="mailto:hello@example.com">
+                    <Link href="mailto:adeshrai707@gmail.com">
                       <Mail className="h-5 w-5" />
                       <span className="sr-only">Email</span>
                     </Link>
@@ -153,7 +150,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative h-[400px] rounded-xl overflow-hidden border border-white/20">
-                <Image src="/placeholder.svg?height=800&width=600" alt="Portrait" fill className="object-cover" />
+                <Image src="/adesh.jpeg?height=800&width=600" alt="Portrait" fill className="object-cover" />
               </div>
             </div>
           </section>
@@ -166,30 +163,37 @@ export default function Home() {
                 Interested in working together? Feel free to reach out for collaborations or just a friendly hello.
               </p>
               <div className="grid gap-6">
+              <Link href="mailto:adeshrai707@gmail.com">
                 <div className="flex items-center gap-4 p-4 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-colors">
                   <Mail className="h-6 w-6 text-white" />
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p className="text-white/80">hello@example.com</p>
+                    <p className="text-white/80">adeshrai707@gmail.com</p>
                   </div>
                   <ArrowUpRight className="h-5 w-5 ml-auto text-white/70" />
                 </div>
+                </Link>
+                <Link href="https://linkedin.com/in/adeshrai" target="_blank" rel="noopener noreferrer">
                 <div className="flex items-center gap-4 p-4 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-colors">
                   <Linkedin className="h-6 w-6 text-white" />
                   <div>
                     <h3 className="font-medium">LinkedIn</h3>
-                    <p className="text-white/80">linkedin.com/in/username</p>
+                    <p className="text-white/80">linkedin.com/in/adeshrai/</p>
                   </div>
                   <ArrowUpRight className="h-5 w-5 ml-auto text-white/70" />
                 </div>
+                </Link> 
+                <Link href="https://github.com/Adeshraigit
+                    " target="_blank" rel="noopener noreferrer">
                 <div className="flex items-center gap-4 p-4 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-colors">
                   <Github className="h-6 w-6 text-white" />
                   <div>
                     <h3 className="font-medium">GitHub</h3>
-                    <p className="text-white/80">github.com/username</p>
+                    <p className="text-white/80">github.com/Adeshraigit</p>
                   </div>
                   <ArrowUpRight className="h-5 w-5 ml-auto text-white/70" />
                 </div>
+                </Link>
               </div>
             </div>
           </section>
@@ -197,7 +201,7 @@ export default function Home() {
 
         <footer className="container mx-auto py-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-white/80">© {new Date().getFullYear()} Portfolio. All rights reserved.</p>
+            <p className="text-white/80">© {new Date().getFullYear()} Adesh. All rights reserved.</p>
             <div className="flex gap-6">
               <Link href="#projects" className="text-sm text-white/60 hover:text-white transition-colors">
                 Projects
